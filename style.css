@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background: linear-gradient(270deg, #1a1a1a, #333);
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px; /* Tamaño base */
+    animation: backgroundChange 10s infinite alternate;
+}
+
+.justified {
+    text-align: justify; /* Alineación justificada */
+}
+
+@keyframes backgroundChange {
+    0% { background: linear-gradient(270deg, #1a1a1a, #333); }
+    50% { background: linear-gradient(270deg, #333, #1a1a1a); }
+    100% { background: linear-gradient(270deg, #1a1a1a, #333); }
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Asegura que el contenido se apile verticalmente */
+    align-items: center; /* Centra horizontalmente el contenido */
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+#codeLines {
+    white-space: pre-wrap; /* Esto permite que se respeten los saltos de línea y los espacios */
+    text-align: center; /* Opcional: Para centrar el texto */
+    max-width: 100%; /* Ajusta el ancho si es necesario para evitar que el texto se extienda demasiado */
+    margin: 0 auto; /* Para centrar el contenedor */
+}
+
+h1 {
+    font-size: 2rem; /* 32px en base a un tamaño de 16px */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid #00ff00;
+    animation: blink-caret 0.75s step-end infinite;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem; /* 16px en base a un tamaño de 16px */
+    background: #00ff00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #33ff33;
+    transform: scale(1.1);
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #00ff00; }
+}
+
+.balloon {
+    position: absolute;
+    bottom: -150px;
+    animation: balloonRise 5s linear forwards;
+    width: 50px;  /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+@keyframes balloonRise {
+    0% {
+        bottom: -150px;
+        transform: translateX(0);
+    }
+    100% {
+        bottom: 100%;
+        transform: translateX(50px);
+        opacity: 0;
+    }
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reducir tamaño base para tabletas */
+    }
+    h1 {
+        font-size: 1.5rem; /* Reducir tamaño de h1 */
+    }
+    button {
+        font-size: 0.9rem; /* Reducir tamaño del botón */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px; /* Reducir tamaño base para móviles */
+    }
+    h1 {
+        font-size: 1.2rem; /* Reducir tamaño de h1 */
+    }
+    button {
+        font-size: 0.8rem; /* Reducir tamaño del botón */
+    }
+}
