@@ -23,11 +23,11 @@ let balloonInterval;
 // Lista de URLs de imágenes de globos de diferentes colores
 
 const balloonImages = [
-'🎈', // Globo rojo
-    '🎉', // Globo de celebración (con colores variados)
-    '🟢', // Globo verde (simulado con círculo verde)
-    '🔵', // Globo azul (simulado con círculo azul)
-    '🟡'  // Globo amarillo (simulado con círculo amarillo)
+    ' https://img.freepik.com/vector-gratis/globo-rojo-realista-sobre-fondo-transparente_1284-52281.jpg',
+    'https://i.imgur.com/globo_dos.png',
+    'https://i.imgur.com/globo_tres.png',
+    'https://i.imgur.com/globo_cuatro.png',
+    'https://i.imgur.com/globo_cinco.png'
 ];
 
 
