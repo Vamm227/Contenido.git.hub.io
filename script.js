@@ -25,7 +25,7 @@ let balloonInterval;
 const balloonImages = [
     'https://postimg.cc/yJRHFNhf][img]https://i.postimg.cc/yJRHFNhf/cinco.png[/img',
     'dos.png',
-    'tres.png',
+    'https://w7.pngwing.com/pngs/917/576/png-transparent-festival-elements-of-red-balloon-illustration-06.png',
     'cuatro.png',
     'cinco.png'
 ];
