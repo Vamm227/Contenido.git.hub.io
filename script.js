@@ -23,11 +23,11 @@ let balloonInterval;
 // Lista de URLs de imágenes de globos de diferentes colores
 
 const balloonImages = [
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Redballoon.png/240px-Redballoon.png',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Blueballoon.png/240px-Blueballoon.png',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Greenballoon.png/240px-Greenballoon.png',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Yellowballoon.png/240px-Yellowballoon.png',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Purpleballoon.png/240px-Purpleballoon.png'
+'🎈', // Globo rojo
+    '🎉', // Globo de celebración (con colores variados)
+    '🟢', // Globo verde (simulado con círculo verde)
+    '🔵', // Globo azul (simulado con círculo azul)
+    '🟡'  // Globo amarillo (simulado con círculo amarillo)
 ];
 
 
