@@ -23,7 +23,7 @@ let balloonInterval;
 // Lista de URLs de imágenes de globos de diferentes colores
 
 const balloonImages = [
-    ' https://img.freepik.com/vector-gratis/globo-rojo-realista-sobre-fondo-transparente_1284-52281.jpg',
+    'https://img.freepik.com/vector-gratis/globo-rojo-realista-sobre-fondo-transparente_1284-52281.jpg',
     'https://i.imgur.com/globo_dos.png',
     'https://i.imgur.com/globo_tres.png',
     'https://i.imgur.com/globo_cuatro.png',
