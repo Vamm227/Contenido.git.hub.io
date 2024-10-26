@@ -24,7 +24,7 @@ let balloonInterval;
 
 const balloonImages = [
   'https://github.com/Vamm227/Contenido.git.hub.io/blob/49216c124f8c263728de243f3356657aac683139/uno.png',
-  'dos.png',
+  'https://github.com/Vamm227/Contenido.git.hub.io/blob/fabb2c8d0da1ff2707055202bf89dd3027f13ca4/dos.png',
   'tres.png',
   'cuatro.png',
   'cinco.png'
