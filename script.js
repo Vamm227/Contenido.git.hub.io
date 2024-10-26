@@ -23,11 +23,11 @@ let balloonInterval;
 // Lista de URLs de imágenes de globos de diferentes colores
 
 const balloonImages = [
-    'https://pngimg.com/uploads/balloon/balloon_PNG4945.png',  // Globo rojo sin fondo
-    'https://pngimg.com/uploads/balloon/balloon_PNG4946.png',  // Globo azul sin fondo
-    'https://pngimg.com/uploads/balloon/balloon_PNG4947.png',  // Globo verde sin fondo
-    'https://pngimg.com/uploads/balloon/balloon_PNG4948.png',  // Globo amarillo sin fondo
-    'https://pngimg.com/uploads/balloon/balloon_PNG4952.png'   // Globo morado sin fondo
+  'uno.png',
+  'dos.png',
+  'tres.png',
+  'cuatro.png',
+  'cinco.png'
 ];
 
 
