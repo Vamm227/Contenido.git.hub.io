@@ -27,7 +27,7 @@ const balloonImages = [
   'https://github.com/Vamm227/Contenido.git.hub.io/blob/fabb2c8d0da1ff2707055202bf89dd3027f13ca4/dos.png',
   'https://github.com/Vamm227/Contenido.git.hub.io/blob/bf242a14e30cee4c7730841c35e1adfd27bfee1c/tres.png',
   'https://github.com/Vamm227/Contenido.git.hub.io/blob/ee6a891640cb51a178f22519d07ee949c8df1d7c/cuatro.png',
-  'cinco.png'
+  'https://github.com/Vamm227/Contenido.git.hub.io/blob/6c2d606b1953e9c865c1943884b0ac51fcd961de/cinco.png'
 ];
 
 
