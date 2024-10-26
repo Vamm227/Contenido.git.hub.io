@@ -24,15 +24,15 @@ let balloonInterval;
 
 const balloonImages = [
 
-    'images/uno.png',
+    'imagen/uno.png',
 
-    'images/dos.png',
+    'imagen/dos.png',
 
-    'images/tres.png',
+    'imagen/tres.png',
 
-    'images/cuatro.png',
+    'imagen/cuatro.png',
 
-    'images/cinco.png'
+    'imagen/cinco.png'
 
 ];
 
