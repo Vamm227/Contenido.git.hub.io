@@ -25,9 +25,9 @@ let balloonInterval;
 const balloonImages = [
     'https://postimg.cc/yJRHFNhf][img]https://i.postimg.cc/yJRHFNhf/cinco.png[/img',
     'dos.png',
-    '🎉🎉🎉🎉🎉',
-    'https://i.imgur.com/globo_cuatro.png',
-    'https://i.imgur.com/globo_cinco.png'
+    'tres.png',
+    'cuatro.png',
+    'cinco.png'
 ];
 
 
