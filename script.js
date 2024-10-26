@@ -23,7 +23,7 @@ let balloonInterval;
 // Lista de URLs de imágenes de globos de diferentes colores
 
 const balloonImages = [
-    'https://w7.pngwing.com/pngs/696/997/png-transparent-balloon-red-watercolor-balloon-thumbnail.png',
+    'https://postimg.cc/yJRHFNhf][img]https://i.postimg.cc/yJRHFNhf/cinco.png[/img',
     'dos.png',
     '🎉🎉🎉🎉🎉',
     'https://i.imgur.com/globo_cuatro.png',
