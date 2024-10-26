@@ -23,7 +23,7 @@ let balloonInterval;
 // Lista de URLs de imágenes de globos de diferentes colores
 
 const balloonImages = [
-  'uno.png',
+  'https://github.com/Vamm227/Contenido.git.hub.io/blob/49216c124f8c263728de243f3356657aac683139/uno.png',
   'dos.png',
   'tres.png',
   'cuatro.png',
