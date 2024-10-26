@@ -23,17 +23,11 @@ let balloonInterval;
 // Lista de URLs de imágenes de globos de diferentes colores
 
 const balloonImages = [
-
-    'uno.png',
-
-    'dos.png',
-
-    'tres.png',
-
-    'cuatro.png',
-
-    'cinco.png'
-
+    'https://i.imgur.com/globo_uno.png',
+    'https://i.imgur.com/globo_dos.png',
+    'https://i.imgur.com/globo_tres.png',
+    'https://i.imgur.com/globo_cuatro.png',
+    'https://i.imgur.com/globo_cinco.png'
 ];
 
 
