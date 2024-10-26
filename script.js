@@ -23,12 +23,13 @@ let balloonInterval;
 // Lista de URLs de imágenes de globos de diferentes colores
 
 const balloonImages = [
-    'https://i.imgur.com/globo_uno.png',
-    'https://i.imgur.com/globo_dos.png',
-    'https://i.imgur.com/globo_tres.png',
-    'https://i.imgur.com/globo_cuatro.png',
-    'https://i.imgur.com/globo_cinco.png'
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Redballoon.png/240px-Redballoon.png',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Blueballoon.png/240px-Blueballoon.png',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Greenballoon.png/240px-Greenballoon.png',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Yellowballoon.png/240px-Yellowballoon.png',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Purpleballoon.png/240px-Purpleballoon.png'
 ];
+
 
 
 
