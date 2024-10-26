@@ -24,7 +24,7 @@ let balloonInterval;
 
 const balloonImages = [
     'https://w7.pngwing.com/pngs/696/997/png-transparent-balloon-red-watercolor-balloon-thumbnail.png',
-    'https://i.imgur.com/globo_dos.png',
+    'dos.png',
     'https://i.imgur.com/globo_tres.png',
     'https://i.imgur.com/globo_cuatro.png',
     'https://i.imgur.com/globo_cinco.png'
